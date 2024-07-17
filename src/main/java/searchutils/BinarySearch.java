@@ -1,4 +1,4 @@
-package search;
+package searchutils;
 
 /**
  * 二分法搜索
@@ -23,6 +23,8 @@ public class BinarySearch {
             return search(array,target,helfNum+1,end);
         }
     }
+
+
 
     public static void main(String[] args) {
         int[] a={1,4,7,11,15};
